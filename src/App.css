@@ -1,0 +1,17 @@
+.thinking {
+  width: 12;
+  height: 12;
+  /* background: theme.palette.text.primary; */
+  border-radius: 999;
+  display: inline-block;
+  animation: pulseSize 1.25s ease-in-out infinite;
+}
+
+@keyframes pulseSize {
+  0% {
+    transform: scaleX(1),
+  }
+  50% {
+    transform: scale3d(1.25, 1.25, 1),
+  }
+}
